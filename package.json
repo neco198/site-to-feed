@@ -1,0 +1,33 @@
+{
+  "name": "site-to-feed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neco198/site-to-feed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neco198/site-to-feed/issues"
+  },
+  "homepage": "https://github.com/neco198/site-to-feed#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.6",
+    "now": "^12.1.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "got": "^9.3.2",
+    "now-env": "^3.1.0",
+    "osmosis": "^1.1.8",
+    "scrape-it": "^5.1.0",
+    "tunnel": "0.0.6"
+  }
+}
