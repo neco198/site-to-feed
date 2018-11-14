@@ -2,7 +2,7 @@
   "name": "site-to-feed",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "watch": "nodemon index.js",
     "start": "node index.js"
@@ -24,10 +24,13 @@
   },
   "dependencies": {
     "express": "^4.16.4",
+    "feed": "^2.0.1",
     "got": "^9.3.2",
     "now-env": "^3.1.0",
     "osmosis": "^1.1.8",
+    "random-useragent": "^0.3.1",
     "scrape-it": "^5.1.0",
-    "tunnel": "0.0.6"
+    "tunnel": "0.0.6",
+    "useragent": "^2.3.0"
   }
 }
